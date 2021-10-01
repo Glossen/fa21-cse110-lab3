@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HTMLReferencePage</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Lucas Horwitz">
+    <meta name="keywords" content = "HTML">
+    <link rel="shortcut icon" type="jpg" href="ouriboros.jpeg"/>
+
+</head>
+<body>
+    <header>
+        <h1>Lab2: HTML</h1>
+        <h2> How to use HTML in this class</h2>
+        <div>Navigation</div>
+        <nav>
+            <ul>
+                <li><a href="#text">Text</a></li>
+                <li><a href="#image">Images</a></li>
+                <li><a href="#image">Videos</a></li>
+                <li><a href="#image">Audio</a></li>
+                <li><a href="#form">Form</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <details>
+            <summary>HTML Stuff</summary>
+            <p>
+                This is a page containing notes about how to use the HTML that was used to create the page. It's turtles all the way down. 
+            </p>
+        </details>
+        <p>
+            <h4 id="text">Text</h4> <!-- I used h4 instead of h3, hopefully that's fine? -->
+            <ol>
+                <li><i>This text is Italicized. Generally it'll be abnormal text.</i></li>
+                <li><em>Compare: This text has stress emphasis, and can be nested with more <em>em</em> tags. It is also Italicized unless modified by CSS.</em></li>
+                <li><b>This item is bold. Bold is attention grabbing but not explicitly important. </b></li>
+                <li><strong>Compare: This is important text, so it's strong. The browser renders strong text in bold as well, unless modified by CSS.</strong></li> 
+            </ol>
+        </p>
+        <hr style="height:20px">
+        <p>
+            <h4 id="image">Images</h4>
+            <span>Here's an ouriboros:</span> <br>
+            <img
+                src="ouriboros.jpeg"
+                al ="ouriboros"
+                height="50"
+                width="50"
+            />
+        </p>
+        <p>
+            <h4 id="video">Videos</h4>
+
+        </p>
+        <p>
+            <h4 id="audio">Audio</h4>
+        </p>
+    </main>
+    <footer>
+        <h6 id="form">Non-functional form</h6>
+        <form>
+            <fieldset>
+                <select name="options" id="options">
+                    <option value="Text">Text</option>
+                    <option value="Box">Box</option>
+                    <option value="Circle">Circle</option>
+                    <option value="Date">Date</option>
+                </select> <br><br>
+                <input list="Items" name="Datalist" id="Datalist">
+                <datalist id="Items">
+                    <option value="Text">
+                    <option value="Box">
+                    <option value="Data">
+                    <option value="Circle">
+                </datalist> <br><br>
+                <label for="inputText">Text:</label>
+                <input type="text" id="inputText" name="inputText"><br><br>
+                <label for="inputCheckbox">Box:</label>
+                <input type="checkbox" id="inputCheckbox" name="inputCheckbox"><br><br>
+                <label for="inputDate">Date:</label>
+                <input type="date" id="inputDate" name="inputDate"><br><br>
+                <label for="inputRadio">Circle:</label>
+                <input type="radio" id="inputRadio" name="inputRadio"><br><br>
+
+            </fieldset>
+            <!-- fieldset
+input (checkbox, radio, text, date)*
+textarea
+datalist
+select
+option
+button-->
+        </form>
+    </footer>
+</body>
+</html>
+
+<!-- a title (e.g. "Pomodoro Timer First Brainstorm")
+subtitle for the meeting section/the topic of the meeting (e.g. "brainstorming", "check-ins", "documentation")
+subtitle for the date
+attendance list
+agenda of what the meeting will cover
+things that were unfinished business from last meeting
+things that are new business that need to be talked about
+any miscellaneous comments / questions / concerns that anyone would like to bring up
+pictures of any diagrams / architecture / things that were presented
+    SWE meetings often have people diagram things on a whiteboard so we want those captured as well
+For the following two, you can simply take a 30 second pretend audio recording & video recording to use, we are just trying to get you familiar with the <audio> and <video> elements. Yes, you must have both audio and video elements, and yes, you can use the audio from the video you took for the audio element, it just has to be in a separate audio file.
+    audio recording the meeting
+    video recording of the meeting -->
