@@ -1,1 +1,1 @@
-https://glossen.github.io/Lab2/#form
+https://glossen.github.io/Lab2/
