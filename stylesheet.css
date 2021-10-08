@@ -9,3 +9,12 @@ h1{
 h2{
     color: rgb(0, 100, 0)
 }
+.dog {
+    font-size: 2em;
+}
+.px {
+    width: 200px;
+}
+.vw {
+    width: 10vw;
+}
