@@ -1,10 +1,10 @@
 /*This is a comment at the top of my stylesheet. */
 body{
-    background-color:hsl(300, 100, 80);
-    color: red;
+    background-color:hsl(300, 100, 60);
+    color: #0000ff;
 }
 h1{
-    color: #0000ff
+    color: red
 }
 h2{
     color: rgb(0, 100, 0)
@@ -12,8 +12,9 @@ h2{
 .dog {
     font-size: 2em;
 }
-.px {
-    width: 200px;
+.ex {
+    height: 40ex;
+    width: 2in;
 }
 .vw {
     width: 10vw;
