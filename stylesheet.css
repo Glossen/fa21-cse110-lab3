@@ -16,11 +16,13 @@ h2{
     height: 40ex;
     width: 2in;
     padding: 5ex 4x 5x 4ex;
+    border-color:crimson;
 }
 
 .vw {
     width: 10vw;
     margin: 1in 2in 1in 2in;
+    border-color: brown;
 }
 .cm {
     margin-top: 1em;
@@ -29,6 +31,7 @@ h2{
     margin-right: 2cm;
     width: 2cm;
     height:2cm;
+    border-color: purple;
 }
 .in {
     width: 2in;
