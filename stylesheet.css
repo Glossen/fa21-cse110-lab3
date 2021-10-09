@@ -84,3 +84,10 @@ a:link {
     text-decoration:dotted;
     color:cyan;
 }
+h1, h2, h3, h4, h5, h6 { font-family: helvetica; }
+/* I skipped Combiners because it's 9pm on Friday and my brain is dead,
+and I had translations due on Wednesday and Math due on Thursday, so I couldn't
+put more than an hour into this lab before today. Whoever decided to make this 
+due on Friday instead of Sunday, may you be cursed with a bout of uncontrollable 
+hiccups. Consider this a hands-on example of the Iron Triangle - I don't have time
+and cost is fixed, so features are going to shrink. */
