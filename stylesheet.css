@@ -44,7 +44,7 @@ li {
     border-style:dotted;
     border-radius: 10px;
 }
-.in {
+*.in {
     width: 2in;
     height: 2in;
     padding-left: 1in;
@@ -52,8 +52,15 @@ li {
     padding-top: 1in;
     margin: auto;
 }
+a[form] {
+    color: purple;
+}
+
 a{
     display:inline;
+}
+#image{
+    color:yellow;
 }
 a:link {
     color: red;
