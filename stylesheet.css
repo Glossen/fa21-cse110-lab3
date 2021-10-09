@@ -15,7 +15,26 @@ h2{
 .ex {
     height: 40ex;
     width: 2in;
+    padding: 5ex 4x 5x 4ex;
 }
+
 .vw {
     width: 10vw;
+    margin: 1in 2in 1in 2in;
+}
+.cm {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 2cm;
+    margin-right: 2cm;
+    width: 2cm;
+    height:2cm;
+}
+.in {
+    width: 2in;
+    height: 2in;
+    padding-left: 1in;
+    padding-right: 1in;
+    padding-top: 1in;
+    margin: auto;
 }
